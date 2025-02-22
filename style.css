@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #235263;
+}
+.container {
+
+    gap: 20px;
+    width: 100%;
+    /* min-width: 900px; */
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    width:60vw;
+}
+#Name {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 30vh;
+    box-shadow: 5px 5px 10px #d2cc1e74;
+    border-top-right-radius: 7%; 
+    border-bottom-right-radius: 7%
+
+}
+#Name h1 {
+    align-self: center; /* Centers vertically */
+    justify-self: center; /* Centers horizontally */
+}
+#IMG1 {
+   border-radius: 7%;
+   width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    
+}
+div h2 {
+    margin-top: 45px;
+}
+.inline-container{
+    display: flex;
+    align-items: left;
+}
+
+.inline-container p {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+.box {
+    display: grid;
+    width: 45vw;
+    font-size: larger;
+    justify-self: center;
+    
+}
+.box h2 {
+    color: #4CB3D9;
+}
+.box p {
+    /* color: #9D601E; */
+    margin: 5px;
+}
+.my-contact {
+    justify-items: right
+}
+@media (min-width: 928px){
+    body {
+        padding: 1px;
+    }
+}
+/* 
+.my-contact {
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+.me-section {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.Education {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+.Education-Coursework {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: flex-end;
+}
+.Achievements {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.Professional-Experience {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.Technical-Skills {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}  */
